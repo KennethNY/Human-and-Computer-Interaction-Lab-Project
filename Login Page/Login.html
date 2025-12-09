@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiamondCut Motors - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Login.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="./Login.html" class="custom-link"><img src="./assets/login.png" class="circle-img" height="40px" width="75px" alt="Login"></a></li>
+            <li><a href="./Home.html" class="custom-link"><img src="./assets/logo.jpeg" class="circle-img" height="40px" width="40px" alt="Logo"></a></li>
+            <li><a href="./Product.html" class="custom-link">Models</a></li>
+            <li><a href="./AboutUs.html" class="custom-link">About Us</a></li>
+            <li><a href="./Location.html" class="custom-link">Location</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <form id="loginForm" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <span id="usernameError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span id="emailError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <span id="phoneError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span id="passwordError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <span id="confirmPasswordError" class="error"></span>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <nav class="footer">
+        <ul class="nav-list">
+            <li><a href="./Showroom.html" class="custom-link-footer">Showroom</a></li>
+            <li><a href="./Purchase.html" class="custom-link-footer">Pricelist</a></li>
+        </ul>
+    </nav>
+    
+    <script src="./Login.js"></script>
+</body>
+</html>

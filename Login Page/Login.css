@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    background-image: url(/assets/HD-wallpaper-lamborghini-aventador-monochrome-raining-water-drops-selective-coloring-supercars-vehicle.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.navbar{
+    position: fixed;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+    background-image: url(/assets/navbar.webp);
+    background-position: center;
+    top:0px;
+    color: azure;
+}
+
+.footer{
+    position: fixed;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+    background-image: url(/assets/lambooooo.jpeg);
+    background-position: center;
+    bottom:0px;
+    color: black;
+    text-align: center;
+}
+
+.custom-link-footer{
+    color: black;
+    text-decoration: none;
+    line-height: 75px;
+}
+
+.circle-img{
+    border-radius: 50%;
+}
+
+.custom-link{
+    color: azure;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list li {
+    margin: 15px;
+    display: inline;
+}
+
+.jura{
+    font-family: "Jura", sans-serif;
+}
+
+.kalam{
+    font-family: "Kalam", cursive;
+}
+
+.p-color{
+    color: azure;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.carlogo{
+    display: flex;
+}
+
+.slider {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #ddd;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #ddd;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
+
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 380px;
+}
+
+.navigation-auto div {
+    border: 2px solid #ddd;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+
+
+img:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+.container {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+@media (max-width:768px){
+    body{
+        background-image: url(/assets/HD-wallpaper-lamborghini-aventador-monochrome-raining-water-drops-selective-coloring-supercars-vehicle.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
